@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+- '0.12'
+deploy:
+  provider: heroku
+  api_key: 1650e549-e7f4-4a0b-99fd-7b36d4231121
+  app: week3forci
+  on:
+    repo: wanglina/week3ForCI
