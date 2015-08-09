@@ -648,17 +648,8 @@ ul#pics li:hover {
   }
 }
 @media screen and (max-width: 980px) {
-  /* line 620, ../sass/style.scss */
-  .content {
-    right: 0;
-  }
-  /* line 622, ../sass/style.scss */
-  .content .profile-status, .content .stream-container {
-    margin: 40px 0 0 auto;
-  }
-  /* line 626, ../sass/style.scss */
-  .content ul li a span {
-    font-size: 12px;
+  .top-bar .middle{
+    display: none;
   }
 }
 @media screen and (max-width: 980px) and (max-width: 750px) {
